@@ -1,6 +1,6 @@
 .navbar{
     justify-content: space-between;
-  
+    
   }
   
   span{
@@ -8,8 +8,10 @@
   }
 
   .header{
+    background-color: black;
+    color: black;
     position: fix,
-    top=0%
+    top=0%;
   }
   .footer{
     position: fix;
@@ -19,3 +21,4 @@
     display: flex;
     justify-content: center;
   }
+  
