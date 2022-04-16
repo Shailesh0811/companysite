@@ -15,8 +15,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactusComponent } from './contactus/contactus.component';
-
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatCardModule} from '@angular/material/card';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,16 +24,18 @@ import { ContactusComponent } from './contactus/contactus.component';
     FooterComponent,
     HomeComponent,
     ServicesComponent,
-    ContactusComponent
+    ContactusComponent,
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
     MatButtonModule,
     MatTabsModule,
     MatToolbarModule,
     MatIconModule,
-    NgbModule
+    NgbModule,
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

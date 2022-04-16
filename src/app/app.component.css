@@ -2,4 +2,4 @@
     display: flex;
     justify-content: center;
   }
-  
+  @import "~bootstrap/dist/css/bootstrap.css"

@@ -2,7 +2,7 @@
 
 
 <div  class="bg-img"></div>
-<div class="bg-text">
+<div class="bg-text"  @fade>
 
   <h2 class="animated fadeInDown" style=" color: #ffff; ">TAKE YOUR BUSINESS TO THE NEXT LEVEL.</h2>
   <h4 class="wordCarousel">
@@ -10,7 +10,7 @@
 
       <span> &nbsp;&nbsp;&nbsp;&nbsp;WE ARE THE EXPERTS IN</span> <br> 
       <div class="divx"> 
-        <ul class="flip4" style="font-family:montserrat;"> 
+        <ul class="flip4" style="font-family:montserrat; list-style-type: none;"> 
           <li>Cloud Solutions</li>
           <li>E-Commerce Solutions</li>
           <li>Website Design and Development</li>
@@ -28,11 +28,11 @@
     <div class="container">
 
       <div class="section-title">
-        <h2><u>FEATURES</u></h2>
+        <h2 @fade><u>FEATURES</u></h2>
         <p>We provide cost effective, highly available, performance optimized, scalable solutions while working with an ideology of digital transformation.</p>
       </div>
-
-      <div class="row" data-aos="fade-up">
+      <br>
+      <div class="row" data-aos="fade-right">
         <div class="col-md-5">
           <img src="./assets/images/cloud.jpg" class="img-fluid" alt="">
         </div>
@@ -51,12 +51,12 @@
         </div>
       </div>
 
-      <div class="row" data-aos="fade-up">
+      <div class="row" data-aos="fade-left" >
         <div class="col-md-5 order-1 order-md-2">
           <img style="width: 90% !important;" src="./assets/images/agile4.jpg" class="img-fluid" alt="">
         </div>
         <div class="col-md-7 pt-5 order-2 order-md-1">
-          <h3>Agile Methodology</h3>
+          <h3 >Agile Methodology</h3>
           <p class="font-italic">
             Agile is a time-bound, iterative approach to software delivery
           </p>
@@ -71,7 +71,7 @@
           
         </div>
       </div>
-      <div class="row" data-aos="fade-up">
+      <div class="row" data-aos="fade-right">
         <div class="col-md-5">
           <img src="./assets/images/security111.jpg" class="img-fluid" alt="">
         </div>
@@ -90,7 +90,7 @@
           
         </div>
       </div>
-      <div class="row" data-aos="fade-up">
+      <div class="row" data-aos="fade-left">
         <div class="col-md-5 order-1 order-md-2">
           <img style="height: 100% ; "src="./assets/images/cus2.jpg" class="img-fluid" alt="">
         </div>
@@ -109,6 +109,6 @@
         
         </div>
       </div>
-    
+      
       </div>
   </section>
