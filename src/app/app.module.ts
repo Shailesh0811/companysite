@@ -17,6 +17,9 @@ import { ServicesComponent } from './services/services.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http' ;
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +30,7 @@ import {MatCardModule} from '@angular/material/card';
     ContactusComponent,
   ],
   imports: [
+    
     AppRoutingModule,
     MatButtonModule,
     MatTabsModule,
@@ -35,7 +39,10 @@ import {MatCardModule} from '@angular/material/card';
     NgbModule,
     BrowserModule,
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
