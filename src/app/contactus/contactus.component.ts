@@ -34,14 +34,10 @@ export class ContactusComponent implements OnInit {
     console.warn(data);
     this.alert=true;
     
-    
     console.warn(data.contactId);
   }
   closeAlert(){
     this.alert=false;
-  }
-  openAlert(){
-    this.alert=true;
   }
 
 }
